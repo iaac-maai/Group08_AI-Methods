@@ -1,17 +1,25 @@
-# Group8-day1-assignment
-we are 3 students at IAAC 2026-2027, super exciting! 
-- Akshat
-- Bhavini
-- Bo
-# Housing Affordability Across 26 Countries (1975–2025)
-### Data cleaning, feature engineering and exploratory data analysis
+# Group 08 – AI Methods I: Housing Affordability (26 countries, 1977–2024)
 
 **Group 8:** Akshat Dayal, Bhavini Manot, Bo De Roeck
-**Model on Hugging Face (Day 2):** https://huggingface.co/iaac-maai/day2-group8-affordability
-**Course:** IAAC · Master in AI for Architecture and Business Innovation (MaAI) 2026–27 · AI Methods · Day 1
-**Notebook:** `Notebook_Akshat.ipynb`
+**Course:** IAAC · Master in AI for Architecture and Business Innovation (MaAI) 2026–27 · AI Methods I
+**Everything on Hugging Face:** [Group 08 collection](https://huggingface.co/collections/iaac-maai/group-08-housing-affordability-ai-methods-i-6af749f595e0fc80de4842a0)
+
+This repository brings together all four days of our AI Methods I work. Day 3 and Day 4 were submitted in their own repositories (linked below); copies of their notebooks, figures and cards are kept here so the whole project is in one place.
+
+| Day | Topic | Notebook (this repo) | Figures | Published |
+|---|---|---|---|---|
+| 1 | Data cleaning, feature engineering, EDA | [`notebook/Day1_data_cleaning_and_EDA.ipynb`](notebook/Day1_data_cleaning_and_EDA.ipynb) | `figures/A_*`, `figures/B_*` | [cleaned dataset](data/housing_affordability_model_ready.csv) |
+| 2 | Supervised learning: forecasting next year's affordability (Ridge) | [`notebook/Day2_models.ipynb`](notebook/Day2_models.ipynb) | `figures/day2_*` | [model](https://huggingface.co/iaac-maai/day2-group8-affordability) |
+| 3 | Unsupervised learning: four housing market regimes (PCA, t-SNE, K-Means) | [`notebook/Day3_unsupervised_learning.ipynb`](notebook/Day3_unsupervised_learning.ipynb) | [`figures/day3/`](figures/day3) | [dataset](https://huggingface.co/datasets/iaac-maai/day3-group8-housing-market-regimes) · [model](https://huggingface.co/iaac-maai/day3-group8-market-regimes) · [submitted repo](https://github.com/iaac-maai/Group08_Day03_AI-Methods) |
+| 4 | Neural network: MLP forecast compared with Day 2 | [`notebook/Day4_neural_network.ipynb`](notebook/Day4_neural_network.ipynb) | [`figures/day4/`](figures/day4) | [model](https://huggingface.co/iaac-maai/day4-group8-affordability-mlp) · [submitted repo](https://github.com/iaac-maai/Group08_Day04_AI-Methods) |
+
+Model and dataset cards: [`models/README.md`](models/README.md) (Day 2), [`models/day3_model_card.md`](models/day3_model_card.md), [`models/day3_dataset_card.md`](models/day3_dataset_card.md), [`models/day4_model_card.md`](models/day4_model_card.md).
+
+> The Day 3 and Day 4 notebooks are copies: they were run in their own repositories, so to re-run them use those repositories (their file paths assume that layout).
 
 ---
+
+# Day 1: Data cleaning, feature engineering and exploratory data analysis
 
 ## Contents
 1. [Use case](#1-use-case)
