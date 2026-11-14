@@ -39,7 +39,7 @@ Every year of the housing market of 26 countries (1977–2024), labelled with on
 
 ## The clusters
 
-![The regimes on the PCA and t-SNE maps](12_clusters_pca_tsne.png)
+![The regimes on the PCA and t-SNE maps](../figures/day3/12_clusters_pca_tsne.png)
 
 | Cluster | Name | Share of the rows | What makes it different (medians) |
 |---|---|---|---|
@@ -50,9 +50,9 @@ Every year of the housing market of 26 countries (1977–2024), labelled with on
 
 **How well separated are they?** Not sharply. The regimes are segments of a **continuum**: the silhouette score is about 0.24 for every k, and DBSCAN finds one dense cloud plus 5 % outliers. The main axis is *boom vs correction* (the first principal component, 48 % of the variance). The position relative to the country's own history is a separate direction, and it is what distinguishes *affordable steady growth* from *expensive plateau*. Without having seen the calendar, the regimes still follow known history. For example, Spain and Ireland go **boom (2005–06) → expensive plateau (2007–08) → correction (2009–12)**, the USA one year earlier, and Finland and Sweden follow the same sequence around 1990.
 
-![The regime of every country in every year](11_timeline_country_year.png)
+![The regime of every country in every year](../figures/day3/11_timeline_country_year.png)
 
-![Cluster profiles](09_cluster_profiles.png)
+![Cluster profiles](../figures/day3/09_cluster_profiles.png)
 
 ## Columns
 

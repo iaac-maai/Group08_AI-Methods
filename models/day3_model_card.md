@@ -67,7 +67,7 @@ The model expects a `pandas.DataFrame` with exactly these columns:
 
 There is no noise label: every input is assigned to one of the four regimes, including unusual years.
 
-![Cluster profiles](09_cluster_profiles.png)
+![Cluster profiles](../figures/day3/09_cluster_profiles.png)
 
 ## Training data
 

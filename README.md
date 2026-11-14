@@ -232,7 +232,7 @@ All charts use reliable years only (hyperinflation periods excluded).
 | `06_price_change_distribution.png` | How large are yearly price changes? |
 | `07_correlations.png` | Which features relate most to next year's affordability? |
 
-![Affordability vs each country's own average](figures/02_all_countries_vs_own_avg.png)
+![Affordability vs each country's own average](figures/A_02_all_countries_vs_own_avg.png)
 
 ### Findings
 1. **Rising unaffordability since 2000:** Luxembourg (170), New Zealand (158), Canada (150), Australia (149), the UK (132) and the Netherlands (130) are far above their historical average in the 2020s.
@@ -244,7 +244,7 @@ All charts use reliable years only (hyperinflation periods excluded).
 
 *(Values in brackets: decade average vs each country's own long-run average, where 100 = normal.)*
 
-![When was each country least affordable?](figures/04_heatmap_country_decade.png)
+![When was each country least affordable?](figures/A_04_heatmap_country_decade.png)
 
 ---
 
